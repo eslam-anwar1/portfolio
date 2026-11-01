@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>م. إسلام أنور الفجم | معرض الأعمال البرمجية والتصميمية</title>
+    <meta name="description" content="معرض أعمال المهندسة إسلام أنور الفجم - مطورة أنظمة وتطبيقات ويب متكاملة (Full-Stack) ومصممة واجهات UI/UX وأغلفة خمسات الاحترافية.">
+    <meta name="keywords" content="إسلام الفجم, مطور ويب, لارافيل, نود جي اس, خمسات, معرض أعمال, UI UX, تصميم مواقع, PWA, برمجة أنظمة">
+    
+    <!-- Favicon SVG -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%230ea5e9'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='42' font-weight='bold' fill='white'>إ.ف</text></svg>">
+    
+    <!-- Google Fonts: Cairo & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+
+    <!-- Background Ambient Glows -->
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+
+    <!-- Navigation Bar -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="brand-logo">
+                <span class="logo-box">
+                    <i class="fa-solid fa-code"></i>
+                </span>
+                <div class="logo-text">
+                    <span class="name">م. إسلام الفجم</span>
+                    <span class="role">Software Eng & Designer</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <nav class="nav-menu" id="navMenu">
+                <a href="#hero" class="nav-link active"><i class="fa-solid fa-house"></i> الرئيسية</a>
+                <a href="#web-systems" class="nav-link"><i class="fa-solid fa-layer-group"></i> الأنظمة والمواقع</a>
+                <a href="#design-mockups" class="nav-link"><i class="fa-solid fa-wand-magic-sparkles"></i> التصاميم وموكاب خمسات</a>
+                <a href="#skills" class="nav-link"><i class="fa-solid fa-microchip"></i> المهارات</a>
+                <a href="#testimonials" class="nav-link"><i class="fa-solid fa-star"></i> التقييمات</a>
+                <a href="#contact" class="nav-link"><i class="fa-solid fa-paper-plane"></i> تواصل معي</a>
+            </nav>
+
+            <!-- Actions & Theme Toggle -->
+            <div class="nav-actions">
+                <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="تبديل المظهر النهاري/الليلي" title="تبديل الوضع">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <a href="#contact" class="btn btn-primary btn-sm hire-btn">
+                    <span>اطلب مشروعك</span>
+                    <i class="fa-solid fa-bolt"></i>
+                </a>
+                <button class="mobile-toggle" id="mobileMenuBtn" aria-label="القائمة">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-menu-overlay" id="mobileOverlay"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="status-pill">
+                        <span class="pulse-indicator"></span>
+                        <span class="pill-text">متاحة للمشاريع المستقلة وتطوير الأنظمة البرمجية 🚀</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        أهلاً بك، أنا <span class="gradient-text">المهندسة إسلام الفجم</span>
+                        <br>
+                        أحوّل الأفكار المعقدة إلى <span class="highlight-box">أنظمة ويب وتجارب استثنائية</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        مهندسة برمجيات متخصصة في تطوير أنظمة الويب المتكاملة (Full-Stack Web Systems) وتطبيقات الويب التقدمية (PWA)، مع لمسة فنية رفيعة في تصميم واجهات المستخدم (UI/UX) وهويات منصات العمل الحر وأغلفة خمسات الإبداعية. أجمع بين قوة المعمارية البرمجية وجمال التجربة البصرية.
+                    </p>
+
+                    <div class="hero-cta-group">
+                        <a href="#web-systems" class="btn btn-primary btn-lg">
+                            <i class="fa-solid fa-diagram-project"></i>
+                            <span>استعراض الأنظمة والمشاريع</span>
+                        </a>
+                        <a href="#design-mockups" class="btn btn-secondary btn-lg">
+                            <i class="fa-solid fa-palette"></i>
+                            <span>أعمال وتصاميم خمسات</span>
+                        </a>
+                        <a href="#contact" class="btn btn-outline btn-lg">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <span>محادثة واتساب سريعة</span>
+                        </a>
+                    </div>
+
+                    <!-- Fast Feature Highlights -->
+                    <div class="hero-stats">
+                        <div class="stat-card">
+                            <span class="stat-number" data-target="15">+15</span>
+                            <span class="stat-label">مشروع نظام وتطبيق ويب</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-target="100">100%</span>
+                            <span class="stat-label">رضا العملاء والتقييمات الممتازة</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-target="185">+185</span>
+                            <span class="stat-label">عنصر وموديل مبرمج ومنظم</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-card">
+                            <span class="stat-number"><i class="fa-solid fa-shield-halved text-emerald"></i></span>
+                            <span class="stat-label">كود نظيف ومعايير أمان عالية</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Visual Showcase / Mockup -->
+                <div class="hero-visual">
+                    <div class="hero-code-card">
+                        <div class="code-card-header">
+                            <div class="window-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                            </div>
+                            <span class="code-tab-title"><i class="fa-solid fa-terminal"></i> Islam_Fajam_Developer.ts</span>
+                            <span class="badge-status">Production Ready</span>
+                        </div>
+                        <div class="code-card-body">
+<pre><code><span class="code-keyword">const</span> <span class="code-var">developer</span>: <span class="code-type">EngineerProfile</span> = {
+  <span class="code-prop">name</span>: <span class="code-string">"م. إسلام أنور الفجم"</span>,
+  <span class="code-prop">role</span>: <span class="code-string">"Full-Stack Software Engineer & UI/UX"</span>,
+  <span class="code-prop">core_frameworks</span>: [<span class="code-string">"Laravel 12"</span>, <span class="code-string">"Node.js"</span>, <span class="code-string">"React"</span>],
+  <span class="code-prop">featured_systems</span>: [
+    <span class="code-string">"مجمع ناصر الطبي (Hospital EHR)"</span>,
+    <span class="code-string">"منصة سماء غزة الإنسانية (NGO Portal)"</span>,
+    <span class="code-string">"تطبيق رَوْح وحديقة القيم (PWA)"</span>,
+    <span class="code-string">"متجر أم يمان التفاعلي (E-Commerce)"</span>
+  ],
+  <span class="code-prop">status</span>: <span class="code-string">"Open for high-impact projects"</span>
+};
+<span class="code-comment">// جاهز للتحويل الفوري إلى كود نظيف وتجربة مبهرة!</span></code></pre>
+                        </div>
+                        
+                        <!-- Floating Badge Widgets -->
+                        <div class="floating-badge badge-laravel">
+                            <i class="fa-brands fa-laravel"></i>
+                            <span>Laravel 12 & Blade</span>
+                        </div>
+                        <div class="floating-badge badge-pwa">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <span>PWA & Offline-First</span>
+                        </div>
+                        <div class="floating-badge badge-khamsat">
+                            <i class="fa-solid fa-gem"></i>
+                            <span>خدمات خمسات الاحترافية</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Quick Bar -->
+        <section class="tech-ticker-section">
+            <div class="container">
+                <p class="ticker-title text-center">أهم التقنيات والأطر البرمجية التي أعتمد عليها في بناء الأنظمة الحديثة</p>
+                <div class="tech-pills-row">
+                    <span class="tech-pill"><i class="fa-brands fa-laravel"></i> Laravel 12</span>
+                    <span class="tech-pill"><i class="fa-brands fa-node-js"></i> Node.js & Express</span>
+                    <span class="tech-pill"><i class="fa-brands fa-react"></i> React & Vite</span>
+                    <span class="tech-pill"><i class="fa-solid fa-wind"></i> Tailwind CSS RTL</span>
+                    <span class="tech-pill"><i class="fa-solid fa-database"></i> MySQL & SQLite</span>
+                    <span class="tech-pill"><i class="fa-solid fa-globe"></i> PWA & Service Workers</span>
+                    <span class="tech-pill"><i class="fa-brands fa-figma"></i> Figma & UI/UX</span>
+                    <span class="tech-pill"><i class="fa-brands fa-github"></i> Git & Cloud Deploy (Render/Netlify)</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 1: Web Projects & Systems -->
+        <section class="projects-section section-padding" id="web-systems">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="section-tag"><i class="fa-solid fa-server"></i> مشاريع برمجية واقعية</div>
+                    <h2 class="section-title">قسم أنظمة الويب والتطبيقات المتكاملة</h2>
+                    <p class="section-subtitle">
+                        مجموعة من الأنظمة المعمارية، المنصات الإلكترونية، وتطبيقات الويب المتقدمة التي طورتها بكفاءة عالية، معتمدة على أفضل الممارسات وتصميم واجهات عربية RTL فائقة السلاسة.
+                    </p>
+                </div>
+
+                <!-- Filter Controls -->
+                <div class="filter-controls">
+                    <button class="filter-btn active" data-filter="all">
+                        <i class="fa-solid fa-border-all"></i> جميع الأنظمة
+                    </button>
+                    <button class="filter-btn" data-filter="fullstack">
+                        <i class="fa-solid fa-network-wired"></i> أنظمة Full-Stack
+                    </button>
+                    <button class="filter-btn" data-filter="ecommerce">
+                        <i class="fa-solid fa-cart-shopping"></i> متاجر وتجارة إلكترونية
+                    </button>
+                    <button class="filter-btn" data-filter="pwa">
+                        <i class="fa-solid fa-mobile-screen"></i> تطبيقات PWA & تفاعلية
+                    </button>
+                    <button class="filter-btn" data-filter="admin">
+                        <i class="fa-solid fa-chart-line"></i> لوحات تحكم وإدارة
+                    </button>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid" id="projectsGrid">
+
+                    <!-- Project 1: Hospital Management System -->
+                    <article class="project-card" data-category="fullstack admin" data-id="hospital">
+                        <div class="card-thumb">
+                            <div class="mockup-screen hospital-bg">
+                                <div class="mockup-header-bar">
+                                    <span class="dot-sm"></span><span class="dot-sm"></span><span class="dot-sm"></span>
+                                    <span class="mockup-title">nasser-hospital.sys / portal</span>
+                                </div>
+                                <div class="mockup-content">
+                                    <div class="hospital-preview-mock">
+                                        <div class="mock-sidebar">
+                                            <div class="mock-line"></div>
+                                            <div class="mock-line active"></div>
+                                            <div class="mock-line"></div>
+                                        </div>
+                                        <div class="mock-main">
+                                            <div class="mock-stat-cards">
+                                                <div class="m-card"><i class="fa-solid fa-user-doctor"></i> 24 طبيب</div>
+                                                <div class="m-card"><i class="fa-solid fa-bed-pulse"></i> 156 مريض</div>
+                                                <div class="m-card"><i class="fa-solid fa-calendar-check"></i> مواعيد اليوم</div>
+                                            </div>
+                                            <div class="mock-table">
+                                                <div class="t-row t-head"><span>المريض</span><span>العيادة</span><span>الحالة</span></div>
+                                                <div class="t-row"><span>أحمد محمد</span><span>القلب والأوعية</span><span class="badge-m success">تم الكشف</span></div>
+                                                <div class="t-row"><span>خالد سليم</span><span>طوارئ وإسعاف</span><span class="badge-m danger">حالة حرجة</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="card-badge"><i class="fa-solid fa-hospital"></i> نظام استشفائي متكامل</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-tags">
+                                <span class="tag">Laravel 12</span>
+                                <span class="tag">PHP 8.2</span>
+                                <span class="tag">Tailwind RTL</span>
+                                <span class="tag">Role-Based Access</span>
+                            </div>
+                            <h3 class="card-title">نظام مجمع ناصر الطبي (Nasser Hospital EHR System)</h3>
+                            <p class="card-desc">
+                                حل رقمي شامل لإدارة العمليات الاستشفائية اليومية، يتضمن الملفات الطبية للمرضى، جدولة المواعيد والكشوفات السريرية، نظام الوصفات الدوائية (Rx)، وإدارة 4 أدوار صلاحيات محكمة (مسؤول، أطباء، استقبال، محاسبة).
+                            </p>
+                            <div class="card-footer">
+                                <button class="btn btn-primary btn-sm btn-preview" onclick="openProjectModal('hospital')">
+                                    <i class="fa-solid fa-eye"></i> معاينة تفاصيل النظام
+                                </button>
+                                <a href="https://github.com" target="_blank" rel="noopener" class="icon-link-btn" title="المستودع على GitHub">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://render.com" target="_blank" rel="noopener" class="icon-link-btn" title="نشر Render">
+                                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Samo Solutions / Sama Gaza -->
+                    <article class="project-card" data-category="fullstack" data-id="samogaza">
+                        <div class="card-thumb">
+                            <div class="mockup-screen samogaza-bg">
+                                <div class="mockup-header-bar">
+                                    <span class="dot-sm"></span><span class="dot-sm"></span><span class="dot-sm"></span>
+                                    <span class="mockup-title">sama-gaza-foundation.onrender.com</span>
+                                </div>
+                                <div class="mockup-content">
+                                    <div class="ngo-preview-mock">
+                                        <div class="ngo-hero">
+                                            <div class="ngo-logo-box"><i class="fa-solid fa-hand-holding-heart"></i> مؤسسة سماء غزة</div>
+                                            <div class="ngo-text-line">منصة إدارة الإغاثة والحملات الإنسانية</div>
+                                            <div class="ngo-progress-bar"><div class="ngo-fill"></div></div>
+                                        </div>
+                                        <div class="ngo-grid-m">
+                                            <div class="ngo-box"><i class="fa-solid fa-box-open"></i> طرود غذائية</div>
+                                            <div class="ngo-box"><i class="fa-solid fa-faucet-drip"></i> سقيا الماء</div>
+                                            <div class="ngo-box"><i class="fa-solid fa-kit-medical"></i> إغاثة طبية</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="card-badge badge-ngo"><i class="fa-solid fa-heart"></i> منصة إنسانية وإدارية</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-tags">
+                                <span class="tag">Node.js</span>
+                                <span class="tag">Express</span>
+                                <span class="tag">RESTful API</span>
+                                <span class="tag">Render Ready</span>
+                            </div>
+                            <h3 class="card-title">موقع ومنصة سامو للحلول / مؤسسة سماء غزة الإنسانية</h3>
+                            <p class="card-desc">
+                                منصة متطورة لإدارة الحملات والمساعدات الإنسانية وتوثيق العمليات الإغاثية الشاملة، مصممة بهيكل سحابي مهيأ للاستضافة المجانية على Render و Vercel مع نظام توثيق أمان JWT.
+                            </p>
+                            <div class="card-footer">
+                                <button class="btn btn-primary btn-sm btn-preview" onclick="openProjectModal('samogaza')">
+                                    <i class="fa-solid fa-eye"></i> معاينة تفاصيل المنصة
+                                </button>
+                                <a href="https://github.com" target="_blank" rel="noopener" class="icon-link-btn" title="المستودع على GitHub">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://render.com" target="_blank" rel="noopener" class="icon-link-btn" title="رابط Render المباشر">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: Om Yaman Spices E-Commerce -->
+                    <article class="project-card" data-category="ecommerce admin" data-id="omyaman">
+                        <div class="card-thumb">
+                            <div class="mockup-screen omyaman-bg">
+                                <div class="mockup-header-bar">
+                                    <span class="dot-sm"></span><span class="dot-sm"></span><span class="dot-sm"></span>
+                                    <span class="mockup-title">omyaman-spices.store / shop</span>
+                                </div>
+                                <div class="mockup-content">
+                                    <div class="spice-preview-mock">
+                                        <div class="spice-header">
+                                            <span>🌿 بهارات وتوابل أم يمان</span>
+                                            <span class="cart-pill"><i class="fa-solid fa-basket-shopping"></i> السلة (3)</span>
+                                        </div>
+                                        <div class="spice-items-preview">
+                                            <div class="sp-card">
+                                                <div class="sp-circle saffron"></div>
+                                                <span>زعتر جنيني</span>
+                                                <small>18 ₪</small>
+                                            </div>
+                                            <div class="sp-card">
+                                                <div class="sp-circle paprika"></div>
+                                                <span>بهار قدرة</span>
+                                                <small>25 ₪</small>
+                                            </div>
+                                            <div class="sp-card">
+                                                <div class="sp-circle cardamom"></div>
+                                                <span>هيل أخضر</span>
+                                                <small>45 ₪</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="card-badge badge-spices"><i class="fa-solid fa-store"></i> متجر إلكتروني + AI</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-tags">
+                                <span class="tag">Full E-Commerce</span>
+                                <span class="tag">185+ صنف</span>
+                                <span class="tag">WhatsApp Cart</span>
+                                <span class="tag">AI Chat Assistant</span>
+                            </div>
+                            <h3 class="card-title">نظام ومتجر توابل وبهارات أم يمان (Om Yaman Store)</h3>
+                            <p class="card-desc">
+                                متجر إلكتروني فاخر لأكثر من 185 صنفاً أصيلاً، يضم سلة تسوق ذكية مع تحويل الطلبات لفواتير واتساب منسقة، لوحة إدارة متقدمة (CRUD) لإدارة المخزون، ومساعد ذكي للطبخ والبهارات.
+                            </p>
+                            <div class="card-footer">
+                                <button class="btn btn-primary btn-sm btn-preview" onclick="openProjectModal('omyaman')">
+                                    <i class="fa-solid fa-eye"></i> معاينة تفاصيل المتجر
+                                </button>
+                                <a href="https://github.com" target="_blank" rel="noopener" class="icon-link-btn" title="المستودع">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://netlify.app" target="_blank" rel="noopener" class="icon-link-btn" title="معاينة Netlify">
+                                    <i class="fa-solid fa-globe"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4: Rawh & The Peaceful Virtues Garden -->
+                    <article class="project-card" data-category="pwa" data-id="rawh">
+                        <div class="card-thumb">
+                            <div class="mockup-screen rawh-bg">
+                                <div class="mockup-header-bar">
+                                    <span class="dot-sm"></span><span class="dot-sm"></span><span class="dot-sm"></span>
+                                    <span class="mockup-title">rawh-virtues.app / pwa</span>
+                                </div>
+                                <div class="mockup-content">
+                                    <div class="rawh-preview-mock">
+                                        <div class="rawh-tree-visual">
+                                            <div class="svg-tree-mock">
+                                                <i class="fa-solid fa-seedling text-emerald"></i>
+                                                <i class="fa-solid fa-tree text-green"></i>
+                                                <i class="fa-solid fa-spa text-teal"></i>
+                                            </div>
+                                            <div class="rawh-verse">﴿ وَتَزَوَّدُوا فَإِنَّ خَيْرَ الزَّادِ التَّقْوَىٰ ﴾</div>
+                                            <div class="rawh-action-bar">
+                                                <span class="btn-micro"><i class="fa-solid fa-droplet"></i> سقاية الحديقة</span>
+                                                <span class="btn-micro"><i class="fa-solid fa-volume-high"></i> خرير الماء</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="card-badge badge-pwa-custom"><i class="fa-solid fa-mobile-screen"></i> PWA Offline-First</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-tags">
+                                <span class="tag">PWA 100% Offline</span>
+                                <span class="tag">Canvas Animation</span>
+                                <span class="tag">Web Audio API</span>
+                                <span class="tag">Senior Friendly</span>
+                            </div>
+                            <h3 class="card-title">تطبيق "رَوْح" / حديقة القيم الهادئة وبوابة الجنة</h3>
+                            <p class="card-desc">
+                                تطبيق ويب تقدمي (PWA) فائق الجمال والسكينة يعمل بدون إنترنت تماماً. يحتوي على حديقة افتراضية تنمو مع الأعمال الصالحة، أصوات مهدئة مبرمجة برمجياً دون ملفات خارجية، ونظام قراءة صوتي أصيل.
+                            </p>
+                            <div class="card-footer">
+                                <button class="btn btn-primary btn-sm btn-preview" onclick="openProjectModal('rawh')">
+                                    <i class="fa-solid fa-eye"></i> معاينة تفاصيل التطبيق
+                                </button>
+                                <a href="https://github.com" target="_blank" rel="noopener" class="icon-link-btn" title="المستودع">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://netlify.app" target="_blank" rel="noopener" class="icon-link-btn" title="معاينة مباشرة">
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 5: Eyas Media Dashboard -->
+                    <article class="project-card" data-category="admin fullstack" data-id="eyas">
+                        <div class="card-thumb">
+                            <div class="mockup-screen eyas-bg">
+                                <div class="mockup-header-bar">
+                                    <span class="dot-sm"></span><span class="dot-sm"></span><span class="dot-sm"></span>
+                                    <span class="mockup-title">eyas-media.app / dashboard</span>
+                                </div>
+                                <div class="mockup-content">
+                                    <div class="eyas-preview-mock">
+                                        <div class="eyas-stats">
+                                            <div class="ey-box"><span>الحضور</span><strong>98%</strong></div>
+                                            <div class="ey-box"><span>المهام</span><strong>42 منجزة</strong></div>
+                                            <div class="ey-box"><span>الأقسام</span><strong>6 فِرق</strong></div>
+                                        </div>
+                                        <div class="eyas-chart-mock">
+                                            <div class="bar bar-1"></div>
+                                            <div class="bar bar-2"></div>
+                                            <div class="bar bar-3"></div>
+                                            <div class="bar bar-4"></div>
+                                            <div class="bar bar-5"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="card-badge"><i class="fa-solid fa-users-gear"></i> لوحة تحكم ومتابعة EMS</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-tags">
+                                <span class="tag">EMS Architecture</span>
+                                <span class="tag">Attendance System</span>
+                                <span class="tag">ER Diagram</span>
+                                <span class="tag">Team Roles</span>
+                            </div>
+                            <h3 class="card-title">لوحة تحكم إياس ميديا لإدارة الكوادر والمشاريع (EMS)</h3>
+                            <p class="card-desc">
+                                نظام إداري داخلي متكامل لإدارة الموظفين والمهام وتتبع الحضور والإنتاجية، مزود بمخطط علاقات قواعد البيانات (ERD) ونظام تقييم الأداء الشهري للفرق الإعلامية.
+                            </p>
+                            <div class="card-footer">
+                                <button class="btn btn-primary btn-sm btn-preview" onclick="openProjectModal('eyas')">
+                                    <i class="fa-solid fa-eye"></i> معاينة تفاصيل النظام
+                                </button>
+                                <a href="https://github.com" target="_blank" rel="noopener" class="icon-link-btn" title="المستودع">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 6: Hamada Center Portal -->
+                    <article class="project-card" data-category="pwa fullstack" data-id="hamada">
+                        <div class="card-thumb">
+                            <div class="mockup-screen hamada-bg">
+                                <div class="mockup-header-bar">
+                                    <span class="dot-sm"></span><span class="dot-sm"></span><span class="dot-sm"></span>
+                                    <span class="mockup-title">hamada-center.med / booking</span>
+                                </div>
+                                <div class="mockup-content">
+                                    <div class="hamada-preview-mock">
+                                        <div class="h-head"><i class="fa-solid fa-stethoscope"></i> بوابة مركز حمادة التخصصي</div>
+                                        <div class="h-slots">
+                                            <span class="slot active">10:00 ص - متاح</span>
+                                            <span class="slot">11:30 ص - محجوز</span>
+                                            <span class="slot active">01:00 م - متاح</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="card-badge"><i class="fa-solid fa-clinic-medical"></i> بوابة استشارات وحجوزات</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-tags">
+                                <span class="tag">React & TS</span>
+                                <span class="tag">Vite</span>
+                                <span class="tag">Booking Flow</span>
+                                <span class="tag">High Performance</span>
+                            </div>
+                            <h3 class="card-title">بوابة مركز حمادة الاستشاري للرعاية الصحية</h3>
+                            <p class="card-desc">
+                                تطبيق ويب سريع تم تطويره عبر React و TypeScript لتوفير مسار حجز واستشارات طبية فوري وسلس، مع ربط المواعيد بالتقويم وواجهة مرنة لخدمة المراجعين.
+                            </p>
+                            <div class="card-footer">
+                                <button class="btn btn-primary btn-sm btn-preview" onclick="openProjectModal('hamada')">
+                                    <i class="fa-solid fa-eye"></i> معاينة تفاصيل المنصة
+                                </button>
+                                <a href="https://github.com" target="_blank" rel="noopener" class="icon-link-btn" title="المستودع">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Digital Designs, Khamsat Covers & Mockups -->
+        <section class="designs-section section-padding" id="design-mockups">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="section-tag section-tag-purple"><i class="fa-solid fa-gem"></i> إبداع بصري وتسويقي</div>
+                    <h2 class="section-title">التصميمات الرقمية، أغلفة وموكاب منصة خمسات (UI/UX)</h2>
+                    <p class="section-subtitle">
+                        نماذج لأغلفة الخدمات الاحترافية على منصة خمسات، وموكاب أجهزة عالية الدقة (High-Fidelity Mockups) صُممت لإبراز القيمة وجذب العملاء بأعلى المعايير البصرية.
+                    </p>
+                </div>
+
+                <!-- Design Filter Controls -->
+                <div class="filter-controls">
+                    <button class="filter-btn active" data-design-filter="all">
+                        <i class="fa-solid fa-shapes"></i> جميع التصاميم
+                    </button>
+                    <button class="filter-btn" data-design-filter="khamsat">
+                        <i class="fa-solid fa-store"></i> أغلفة خدمات خمسات
+                    </button>
+                    <button class="filter-btn" data-design-filter="mockup">
+                        <i class="fa-solid fa-laptop"></i> موكاب أجهزة وشاشات
+                    </button>
+                    <button class="filter-btn" data-design-filter="uiux">
+                        <i class="fa-solid fa-mobile"></i> واجهات UI/UX
+                    </button>
+                    <button class="filter-btn" data-design-filter="branding">
+                        <i class="fa-solid fa-crown"></i> هويات وبطاقات رقمية
+                    </button>
+                </div>
+
+                <!-- Designs Grid -->
+                <div class="designs-grid" id="designsGrid">
+
+                    <!-- Design Card 1: Khamsat Web Dev Gig Cover -->
+                    <div class="design-card" data-design-cat="khamsat" data-modal="khamsat-web">
+                        <div class="khamsat-cover-preview cover-dev">
+                            <div class="khamsat-header-ribbon">
+                                <span class="khamsat-logo-badge"><i class="fa-solid fa-5"></i> خمسات</span>
+                                <span class="star-rating"><i class="fa-solid fa-star"></i> 5.0 (خدمة مميزة)</span>
+                            </div>
+                            <div class="cover-center-content">
+                                <div class="cover-icon-box"><i class="fa-solid fa-laptop-code"></i></div>
+                                <h3 class="cover-service-title">برمجة وتطوير مواقع وأنظمة ويب احترافية بـ Laravel & Node.js</h3>
+                                <div class="cover-highlights">
+                                    <span><i class="fa-solid fa-check-circle"></i> كود نظيف ومعياري</span>
+                                    <span><i class="fa-solid fa-check-circle"></i> لوحة تحكم متكاملة</span>
+                                    <span><i class="fa-solid fa-check-circle"></i> متوافق 100% مع الجوال</span>
+                                </div>
+                            </div>
+                            <div class="cover-footer-ribbon">
+                                <span>تسليم سريع ودعم فني متواصل</span>
+                                <span class="price-start">تبدأ من $5</span>
+                            </div>
+                        </div>
+                        <div class="design-info">
+                            <span class="design-type"><i class="fa-solid fa-image"></i> غلاف خدمة معتمد لمنصة خمسات</span>
+                            <h4>غلاف خدمة برمجة وتطوير أنظمة الويب</h4>
+                            <p>تصميم تسويقي جذاب ومدروس سيكولوجياً لرفع معدل التحويل (CTR) ونيل ثقة المشترين في منصات العمل الحر.</p>
+                            <button class="btn btn-outline btn-sm w-full" onclick="openDesignModal('khamsat-web')">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i> عرض تفاصيل الغلاف والموكاب
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Design Card 2: 3D Laptop & Mobile Multi-Screen Mockup -->
+                    <div class="design-card" data-design-cat="mockup uiux" data-modal="mockup-responsive">
+                        <div class="khamsat-cover-preview cover-device-mock">
+                            <div class="device-composition">
+                                <!-- Laptop Mockup -->
+                                <div class="laptop-shell">
+                                    <div class="laptop-screen">
+                                        <div class="screen-navbar">
+                                            <span class="logo-tiny">Rawh App</span>
+                                            <span class="nav-dots">...</span>
+                                        </div>
+                                        <div class="screen-hero-area">
+                                            <div class="screen-badge">حديقة القيم الهادئة</div>
+                                            <div class="screen-bars">
+                                                <div class="s-bar"></div>
+                                                <div class="s-bar short"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="laptop-base"></div>
+                                </div>
+
+                                <!-- Mobile Mockup Floating -->
+                                <div class="phone-shell">
+                                    <div class="phone-notch"></div>
+                                    <div class="phone-screen">
+                                        <div class="phone-app-head">
+                                            <i class="fa-solid fa-seedling"></i>
+                                            <span>القيم اليومية</span>
+                                        </div>
+                                        <div class="phone-card-preview">
+                                            <small>الفضيلة 01</small>
+                                            <p>بر الوالدين وصنائع المعروف</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="design-info">
+                            <span class="design-type"><i class="fa-solid fa-mobile-screen-button"></i> موكاب تجاوب الأجهزة (Device Mockup)</span>
+                            <h4>موكاب شاشات العرض التفاعلية (لابتوب + موبايل)</h4>
+                            <p>إخراج بصري احترافي للشاشات والأنظمة لعرضها أمام العملاء بمظهر واقعي ثلاثي الأبعاد يُبرز دقة التصميم المتجاوب.</p>
+                            <button class="btn btn-outline btn-sm w-full" onclick="openDesignModal('mockup-responsive')">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i> عرض تفاصيل الغلاف والموكاب
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Design Card 3: Khamsat UI/UX Service Cover -->
+                    <div class="design-card" data-design-cat="khamsat uiux" data-modal="khamsat-uiux">
+                        <div class="khamsat-cover-preview cover-uiux">
+                            <div class="khamsat-header-ribbon">
+                                <span class="khamsat-logo-badge"><i class="fa-solid fa-5"></i> خمسات</span>
+                                <span class="star-rating"><i class="fa-solid fa-wand-magic-sparkles"></i> Figma / XD Expert</span>
+                            </div>
+                            <div class="cover-center-content">
+                                <div class="cover-icon-box ui-gradient"><i class="fa-brands fa-figma"></i></div>
+                                <h3 class="cover-service-title">تصميم واجهات وتجربة مستخدم عصرية (UI/UX) للتطبيقات والمواقع</h3>
+                                <div class="cover-highlights">
+                                    <span><i class="fa-solid fa-check-circle"></i> Wireframes & Prototypes</span>
+                                    <span><i class="fa-solid fa-check-circle"></i> نسق ألوان وخطوط مريح للعين</span>
+                                    <span><i class="fa-solid fa-check-circle"></i> ملفات Figma جاهزة للتطوير</span>
+                                </div>
+                            </div>
+                            <div class="cover-footer-ribbon">
+                                <span>تصاميم إبداعية فريدة غير مكررة</span>
+                                <span class="price-start">تقييم 5 نجوم</span>
+                            </div>
+                        </div>
+                        <div class="design-info">
+                            <span class="design-type"><i class="fa-solid fa-palette"></i> تصميم غلاف خدمة خمسات</span>
+                            <h4>غلاف خدمة تصميم واجهات وتجربة المستخدم UI/UX</h4>
+                            <p>تصميم مخصص لخدمات واجهات فيجما (Figma UI/UX) يبرز التناسق اللوني والمعايير العالمية في هندسة تجربة المستخدم.</p>
+                            <button class="btn btn-outline btn-sm w-full" onclick="openDesignModal('khamsat-uiux')">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i> عرض تفاصيل الغلاف والموكاب
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Design Card 4: Om Yaman Spices Identity & Packaging Mockup -->
+                    <div class="design-card" data-design-cat="branding mockup" data-modal="mockup-omyaman">
+                        <div class="khamsat-cover-preview cover-branding-spice">
+                            <div class="branding-composition">
+                                <div class="spice-jar-mock">
+                                    <div class="jar-lid"></div>
+                                    <div class="jar-glass">
+                                        <div class="jar-label">
+                                            <span class="brand-arabic">توابل أم يمان</span>
+                                            <span class="sub-label">بهار قدرة خليلية فاخر</span>
+                                            <div class="stamp-seal">100% طبيعي</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="spice-pouch-mock">
+                                    <div class="pouch-top"></div>
+                                    <div class="pouch-body">
+                                        <span class="p-title">زعتر ملوكي فلسطيني</span>
+                                        <i class="fa-solid fa-wheat-awn"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="design-info">
+                            <span class="design-type"><i class="fa-solid fa-tags"></i> موكاب هوية بصرية وتغليف</span>
+                            <h4>موكاب عبوات وتغليف وهوية "توابل أم يمان"</h4>
+                            <p>تصميم موكاب راقٍ يجمع بين عبوات التوابل الزجاجية وأكياس الحفظ الخيش، مستوحى من عبق التراث والألوان الطبيعية الدافئة.</p>
+                            <button class="btn btn-outline btn-sm w-full" onclick="openDesignModal('mockup-omyaman')">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i> عرض تفاصيل الغلاف والموكاب
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Design Card 5: Khamsat E-Commerce Gig Cover -->
+                    <div class="design-card" data-design-cat="khamsat" data-modal="khamsat-ecom">
+                        <div class="khamsat-cover-preview cover-ecom">
+                            <div class="khamsat-header-ribbon">
+                                <span class="khamsat-logo-badge"><i class="fa-solid fa-5"></i> خمسات</span>
+                                <span class="star-rating"><i class="fa-solid fa-bolt"></i> زيادة المبيعات</span>
+                            </div>
+                            <div class="cover-center-content">
+                                <div class="cover-icon-box ecom-icon"><i class="fa-solid fa-cart-arrow-down"></i></div>
+                                <h3 class="cover-service-title">إنشاء متجر إلكتروني سريع مع سلة تسوق ذكية وربط فوري بالواتساب</h3>
+                                <div class="cover-highlights">
+                                    <span><i class="fa-solid fa-check-circle"></i> بدون رسوم شهرية معقدة</span>
+                                    <span><i class="fa-solid fa-check-circle"></i> إرسال الطلب بنقرة للواتساب</span>
+                                    <span><i class="fa-solid fa-check-circle"></i> لوحة تحكم لإضافة وتعديل المنتجات</span>
+                                </div>
+                            </div>
+                            <div class="cover-footer-ribbon">
+                                <span>حل مثالي للمشاريع والمتاجر الناشئة</span>
+                                <span class="price-start">جاهز للنشر</span>
+                            </div>
+                        </div>
+                        <div class="design-info">
+                            <span class="design-type"><i class="fa-solid fa-bag-shopping"></i> غلاف خدمة خمسات التجارة الإلكترونية</span>
+                            <h4>غلاف خدمة تصميم وتطوير المتاجر السريعة</h4>
+                            <p>تصميم غلاف خدمة موجّه للتجار وأصحاب المشاريع المنزلية مع التركيز على ميزة الطلب المباشر عبر واتساب وسهولة الاستخدام.</p>
+                            <button class="btn btn-outline btn-sm w-full" onclick="openDesignModal('khamsat-ecom')">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i> عرض تفاصيل الغلاف والموكاب
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Design Card 6: Clean Design System & UI Kit Mockup -->
+                    <div class="design-card" data-design-cat="uiux mockup" data-modal="mockup-uikit">
+                        <div class="khamsat-cover-preview cover-uikit">
+                            <div class="uikit-composition">
+                                <div class="color-palette-cards">
+                                    <span class="chip-color c1">Primary #0ea5e9</span>
+                                    <span class="chip-color c2">Emerald #10b981</span>
+                                    <span class="chip-color c3">Purple #8b5cf6</span>
+                                </div>
+                                <div class="components-mock">
+                                    <div class="mock-button">زر تفاعلي أساسي <i class="fa-solid fa-arrow-left"></i></div>
+                                    <div class="mock-input"><span>أدخل بريدك الإلكتروني...</span></div>
+                                    <div class="mock-switches">
+                                        <span class="switch on"></span>
+                                        <span class="switch off"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="design-info">
+                            <span class="design-type"><i class="fa-solid fa-layer-group"></i> نظام تصميم (Design System & UI Kit)</span>
+                            <h4>منظومة التصميم المتسق والأيقونات المتناسقة</h4>
+                            <p>بناء منظومات تصميم متكاملة (Design Systems) تضمن التوحيد البصري عبر جميع صفحات الويب والتطبيقات مع تباين ألوان مثالي لراحة العين.</p>
+                            <button class="btn btn-outline btn-sm w-full" onclick="openDesignModal('mockup-uikit')">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i> عرض تفاصيل الغلاف والموكاب
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Technical Skills Matrix -->
+        <section class="skills-section section-padding" id="skills">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="section-tag"><i class="fa-solid fa-code-commit"></i> الكفاءة التقنية</div>
+                    <h2 class="section-title">مصفوفة المهارات والتقنيات البرمجية</h2>
+                    <p class="section-subtitle">
+                        أجمع بين البنية التحتية الخلفية المتينة (Backend)، والواجهات التفاعلية الحديثة (Frontend)، وتصميم تجربة المستخدم المتقنة (UI/UX).
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Backend Skills -->
+                    <div class="skill-group-card">
+                        <div class="skill-group-head">
+                            <div class="skill-icon-badge"><i class="fa-solid fa-server"></i></div>
+                            <div>
+                                <h3>تطوير الأنظمة والخوادم (Backend)</h3>
+                                <p>هيكلة وتأمين قواعد البيانات والواجهات البرمجية</p>
+                            </div>
+                        </div>
+                        <ul class="skill-list">
+                            <li>
+                                <div class="skill-item-info"><span>Laravel 12 / PHP 8+ (Blade, Eloquent, Seeders)</span><span>95%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 95%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-item-info"><span>Node.js & Express RESTful APIs</span><span>90%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-item-info"><span>قواعد البيانات (MySQL, SQLite, ERD Architecture)</span><span>92%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 92%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-item-info"><span>نظم الأذونات والصلاحيات (Role-Based Access Control)</span><span>94%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 94%;"></div></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Frontend & PWA Skills -->
+                    <div class="skill-group-card">
+                        <div class="skill-group-head">
+                            <div class="skill-icon-badge badge-front"><i class="fa-solid fa-code"></i></div>
+                            <div>
+                                <h3>تطوير الواجهات وتطبيقات الويب (Frontend)</h3>
+                                <p>واجهات عربية متجاوبة، تفاعلية، وسريعة كالبرق</p>
+                            </div>
+                        </div>
+                        <ul class="skill-list">
+                            <li>
+                                <div class="skill-item-info"><span>HTML5 / Semantic CSS3 & Responsive Grid</span><span>98%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 98%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-item-info"><span>Tailwind CSS RTL & Modern Frameworks</span><span>96%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 96%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-item-info"><span>Modern JavaScript (ES6+), React & Vite</span><span>88%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 88%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-item-info"><span>PWA & Service Worker (Offline-First Apps)</span><span>92%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 92%;"></div></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- UI/UX & Digital Design -->
+                    <div class="skill-group-card">
+                        <div class="skill-group-head">
+                            <div class="skill-icon-badge badge-design"><i class="fa-solid fa-palette"></i></div>
+                            <div>
+                                <h3>تصميم الواجهات والهويات (UI/UX Design)</h3>
+                                <p>تصميم النماذج، أغلفة خمسات، والموكاب الاحترافي</p>
+                            </div>
+                        </div>
+                        <ul class="skill-list">
+                            <li>
+                                <div class="skill-item-info"><span>Figma & Adobe XD Wireframing & Prototyping</span><span>94%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 94%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-item-info"><span>تصميم أغلفة وموكاب منصة خمسات الترويجية</span><span>98%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 98%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-item-info"><span>Design Systems, Color Psychology & Typography</span><span>90%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-item-info"><span>تحويل تصاميم Figma إلى كود برمجي مطابق 100%</span><span>96%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 96%;"></div></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Cloud & Deployment Skills -->
+                    <div class="skill-group-card">
+                        <div class="skill-group-head">
+                            <div class="skill-icon-badge badge-cloud"><i class="fa-solid fa-cloud"></i></div>
+                            <div>
+                                <h3>النشر السحابي وإدارة المشاريع (DevOps)</h3>
+                                <p>رفع الأنظمة وربط النطاقات وشهادات الأمان</p>
+                            </div>
+                        </div>
+                        <ul class="skill-list">
+                            <li>
+                                <div class="skill-item-info"><span>Git, GitHub & Version Control Workflows</span><span>92%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 92%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-item-info"><span>النشر السحابي (Render, Netlify, Vercel, Railway)</span><span>94%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 94%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-item-info"><span>الربط مع الواتساب، بوابات الدفع، والـ Webhooks</span><span>90%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-item-info"><span>تهيئة محركات البحث (SEO) وسرعة تحميل فائقة</span><span>95%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" style="width: 95%;"></div></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Testimonials & Client Reviews -->
+        <section class="testimonials-section section-padding" id="testimonials">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="section-tag section-tag-gold"><i class="fa-solid fa-award"></i> الثقة والجودة</div>
+                    <h2 class="section-title">آراء العملاء وتقييمات منصات العمل الحر</h2>
+                    <p class="section-subtitle">
+                        فخورة بثقة العملاء والشركاء في مختلف أنحاء الوطن العربي، ودائماً ما أضع رضا العميل وجودة العمل كأولوية قصوى.
+                    </p>
+                </div>
+
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="stars-row">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">
+                            "عمل هندسي متقن للغاية! طلبت من المهندسة إسلام نظاماً طبياً معقداً، وقامت بتنظيمه وهيكلته باستخدام Laravel مع تفاصيل سريرية وصلاحيات دقيقة أبهرت الطاقم الإداري بأكمله. التزام عالي وسرعة في الرد."
+                        </p>
+                        <div class="client-meta">
+                            <div class="client-avatar"><i class="fa-solid fa-user"></i></div>
+                            <div>
+                                <h4>د. معتز الشريف</h4>
+                                <span>مدير مجمع صحي - السعودية</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card featured-testimonial">
+                        <div class="badge-review">مشتري مميز على خمسات</div>
+                        <div class="stars-row">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">
+                            "متجر أم يمان وسلة الواتساب الذكية كانت نقلة نوعية لمتجرنا! سهولة طلب البهارات مع المساعد الذكي وحساب الأسعار التلقائي بالـ ₪ وفر علينا وقتاً كبيراً وضاعف مبيعاتنا. أنصح بالتعامل معها دون أي تردد."
+                        </p>
+                        <div class="client-meta">
+                            <div class="client-avatar"><i class="fa-solid fa-store"></i></div>
+                            <div>
+                                <h4>أم يمان للتوابل</h4>
+                                <span>متجر تجارة إلكترونية - فلسطين</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="stars-row">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">
+                            "تصاميم وأغلفة خمسات التي صممتها زادت نقرات خدمتي بنسبة تفوق 200%. ذوق رفيع واختيار متناسق جداً للألوان والخطوط مع فهم عميق لكيفية إبراز الميزة التنافسية. شكراً جزيلاً لكِ يا مهندسة."
+                        </p>
+                        <div class="client-meta">
+                            <div class="client-avatar"><i class="fa-solid fa-laptop-code"></i></div>
+                            <div>
+                                <h4>سالم العتيبي</h4>
+                                <span>رائد أعمال ومسوق رقمي</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: Contact & Hire Me -->
+        <section class="contact-section section-padding" id="contact">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-info-col">
+                        <div class="section-tag"><i class="fa-solid fa-handshake"></i> لنبدأ العمل معاً</div>
+                        <h2 class="contact-title">هل لديك فكرة مشروع أو نظام تود تحويله إلى واقع؟</h2>
+                        <p class="contact-description">
+                            يسعدني تقديم الاستشارة ومناقشة تفاصيل مشروعك القادم، سواء كان نظام ويب معقد، متجر إلكتروني، تطبيق PWA، أو تصاميم وأغلفة تسويقية متميزة.
+                        </p>
+
+                        <div class="contact-methods">
+                            <a href="https://wa.me/972595896451" target="_blank" rel="noopener" class="contact-card-link">
+                                <div class="c-icon whatsapp-c"><i class="fa-brands fa-whatsapp"></i></div>
+                                <div>
+                                    <span class="c-label">واتساب فوري</span>
+                                    <span class="c-value">+972 595 896 451</span>
+                                </div>
+                            </a>
+
+                            <a href="mailto:islam.anwar.dev@gmail.com" class="contact-card-link">
+                                <div class="c-icon mail-c"><i class="fa-solid fa-envelope"></i></div>
+                                <div>
+                                    <span class="c-label">البريد الإلكتروني</span>
+                                    <span class="c-value">islam.anwar.dev@gmail.com</span>
+                                </div>
+                            </a>
+
+                            <a href="https://khamsat.com" target="_blank" rel="noopener" class="contact-card-link">
+                                <div class="c-icon khamsat-c"><i class="fa-solid fa-5"></i></div>
+                                <div>
+                                    <span class="c-label">حساب منصة خمسات</span>
+                                    <span class="c-value">خدمات برمجية وتصميمية معتمدة</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form Card -->
+                    <div class="contact-form-card">
+                        <div class="form-header">
+                            <h3>أرسل رسالة فورية</h3>
+                            <p>سأقوم بالرد عليك خلال أقل من 12 ساعة بمشيئة الله</p>
+                        </div>
+                        <form id="contactForm" onsubmit="handleContactSubmit(event)">
+                            <div class="form-group">
+                                <label for="userName"><i class="fa-solid fa-user"></i> الاسم الكريم</label>
+                                <input type="text" id="userName" name="name" required placeholder="مثال: أحمد عبد الله" class="form-input">
+                            </div>
+                            <div class="form-group">
+                                <label for="userEmail"><i class="fa-solid fa-envelope"></i> بريدك الإلكتروني أو رقم الهاتف</label>
+                                <input type="text" id="userEmail" name="email" required placeholder="name@example.com أو واتساب" class="form-input">
+                            </div>
+                            <div class="form-group">
+                                <label for="projectType"><i class="fa-solid fa-layer-group"></i> نوع المشروع أو الخدمة</label>
+                                <select id="projectType" name="type" class="form-input">
+                                    <option value="system">نظام ويب متكامل / إدارة (Laravel / Node)</option>
+                                    <option value="store">متجر إلكتروني وسلة واتساب</option>
+                                    <option value="pwa">تطبيق ويب تقدمي (PWA) تفاعلي</option>
+                                    <option value="khamsat">تصميم أغلفة وموكاب خمسات و UI/UX</option>
+                                    <option value="other">استشارة تقنية / طلب آخر</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="userMsg"><i class="fa-solid fa-message"></i> تفاصيل المشروع</label>
+                                <textarea id="userMsg" name="message" rows="4" required placeholder="صف باختصار فكرة مشروعك، المميزات المطلوبة، والوقت المستهدف..." class="form-input"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg w-full submit-btn">
+                                <span>إرسال الرسالة الآن</span>
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                            <div id="formSuccessMessage" class="form-alert success-alert" style="display: none;">
+                                <i class="fa-solid fa-circle-check"></i> شكراً لك! تم استلام رسالتك وسأتواصل معك قريباً جداً.
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <span class="logo-box"><i class="fa-solid fa-code"></i></span>
+                    <div class="footer-title">
+                        <h3>المهندسة إسلام أنور الفجم</h3>
+                        <p>مطورة أنظمة وتطبيقات ويب متكاملة ومصممة واجهات UI/UX</p>
+                    </div>
+                </div>
+                <div class="footer-social-links">
+                    <a href="https://wa.me/972595896451" target="_blank" rel="noopener" aria-label="WhatsApp" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://khamsat.com" target="_blank" rel="noopener" aria-label="Khamsat" title="Khamsat"><i class="fa-solid fa-5"></i></a>
+                    <a href="mailto:islam.anwar.dev@gmail.com" aria-label="Email" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-bottom">
+                <p>© 2026 جميع الحقوق محفوظة | تم التطوير والتصميم بواسطة <strong>المهندسة إسلام الفجم</strong></p>
+                <div class="footer-bottom-links">
+                    <a href="#hero">الرئيسية</a>
+                    <a href="#web-systems">الأنظمة</a>
+                    <a href="#design-mockups">التصاميم</a>
+                    <a href="#contact">تواصل</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" id="backToTop" aria-label="الرجوع للأعلى">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <!-- Project Details Interactive Modal -->
+    <div class="modal-backdrop" id="projectModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <div class="modal-title-wrap">
+                    <span class="modal-badge" id="modalBadge">نظام ويب</span>
+                    <h3 id="modalTitle">عنوان المشروع</h3>
+                </div>
+                <button class="modal-close-btn" onclick="closeProjectModal()" aria-label="إغلاق">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Visual Banner in Modal -->
+                <div class="modal-preview-box" id="modalPreviewBox">
+                    <!-- Dynamic Graphic Container -->
+                </div>
+
+                <div class="modal-desc-wrap">
+                    <h4><i class="fa-solid fa-circle-info"></i> نظرة عامة على المشروع</h4>
+                    <p id="modalDesc">وصف المشروع يظهر هنا بشكل تفصيلي.</p>
+                </div>
+
+                <div class="modal-features-wrap">
+                    <h4><i class="fa-solid fa-list-check"></i> الميزات المعمارية والوظيفية</h4>
+                    <ul id="modalFeaturesList" class="modal-feature-list">
+                        <!-- Populated by JS -->
+                    </ul>
+                </div>
+
+                <div class="modal-tech-wrap">
+                    <h4><i class="fa-solid fa-toolbox"></i> التقنيات والمكتبات المستخدمة</h4>
+                    <div id="modalTechPills" class="tech-pills-row">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="modal-links-group" id="modalLinksGroup">
+                    <!-- Action buttons populated dynamically -->
+                </div>
+                <button class="btn btn-secondary btn-sm" onclick="closeProjectModal()">إغلاق النافذة</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
