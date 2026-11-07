@@ -304,8 +304,8 @@ const projectData = {
     },
     eyas: {
         badge: "نظام إدارة الكوادر والمؤسسات (EMS)",
-        title: "لوحة تحكم إياس ميديا لإدارة الموظفين والمهام (EMS Dashboard)",
-        desc: "نظام إداري داخلي ومؤسسي متكامل، صُمم لإدارة كوادر شركة إياس ميديا وتتبع سجلات الحضور والانصراف، توزيع المهام، ومتابعة الأداء الشهري مع بنية قواعد بيانات متقدمة (ER Diagram).",
+        title: "لوحة تحكم مركز ميديا لإدارة الموظفين والمهام (EMS Dashboard)",
+        desc: "نظام إداري داخلي ومؤسسي متكامل، صُمم لإدارة موظفي ومهام مركز ميديا وتتبع سجلات الحضور والانصراف، توزيع المهام، ومتابعة الأداء الشهري مع بنية قواعد بيانات متقدمة (ER Diagram).",
         features: [
             "تتبع الحضور والانصراف اليومي وساعات العمل الإضافية مع سجلات رقمية دقيقة.",
             "مخطط علاقات الكيانات لقواعد البيانات (ERD) مهيكل لدعم آلاف السجلات مع الأمان العالي.",
@@ -314,13 +314,13 @@ const projectData = {
         ],
         tech: ["HTML5 / CSS3 Semantic", "JavaScript Dashboard", "Database ERD Modeling", "Bootstrap / Tailwind"],
         links: [
-            { label: "مستودع GitHub", url: "https://github.com/eslam-anwar1/EYAS-MEDIA", icon: "fa-brands fa-github" },
+            { label: "كود المشروع على GitHub", url: "https://github.com/eslam-anwar1/EYAS-MEDIA", icon: "fa-brands fa-github" },
             { label: "طلب لوحة إدارة", url: "#contact", icon: "fa-solid fa-bolt" }
         ],
         previewHtml: `
             <div style="background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%); padding: 1.5rem; color: #fff; border-radius: 8px;">
                 <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
-                    <strong>لوحة تحكم إياس ميديا | نظرة عامة</strong>
+                    <strong>لوحة تحكم مركز ميديا | نظرة عامة</strong>
                     <span style="background:rgba(56,189,248,0.2); color:#38bdf8; padding:2px 8px; border-radius:8px; font-size:0.75rem;">EMS v2.4</span>
                 </div>
                 <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:0.6rem; text-align:center;">
