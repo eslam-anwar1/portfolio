@@ -247,7 +247,7 @@ const projectData = {
         features: [
             "كتالوج ضخم يشمل أكثر من 185 صنفاً أصيلاً موزعاً على 8 أقسام رئيسية مع دعم الأسعار بالـ ₪ (شيكل).",
             "سلة مشتريات ذكية تحفظ محتوياتها محلياً (localStorage) وتولد فواتير مفصلة للمنتجات مع إجمالي الحساب.",
-            "نظام الطلب المباشر عبر واتساب (+972595896451) للمنتج الفردي أو السلة كاملة ببيانات العميل وعنوانه.",
+            "نظام الطلب المباشر عبر واتساب (+970594797110) للمنتج الفردي أو السلة كاملة ببيانات العميل وعنوانه.",
             "مساعد ذكي تفاعلي (AI Spice Assistant) بنبرة أم يمان الدافئة يقدم أسرار الطبخ واقتراحات البهارات تلقائياً.",
             "لوحة إدارة متطورة (Admin Dashboard CRUD) لإضافة وتعديل وحذف الأصناف مع تصدير النسخ الاحتياطية JSON."
         ],
@@ -255,7 +255,7 @@ const projectData = {
         links: [
             { label: "معاينة المتجر", url: "https://omyaman-spices.store", icon: "fa-solid fa-bag-shopping" },
             { label: "مستودع GitHub", url: "https://github.com/eslam-anwar1/om-yaman-spices", icon: "fa-brands fa-github" },
-            { label: "تواصل عبر واتساب المتجر", url: "https://wa.me/972595896451", icon: "fa-brands fa-whatsapp" },
+            { label: "تواصل عبر واتساب المتجر", url: "https://wa.me/970594797110", icon: "fa-brands fa-whatsapp" },
             { label: "طلب متجر مماثل", url: "#contact", icon: "fa-solid fa-bolt" }
         ],
         previewHtml: `
@@ -377,7 +377,7 @@ const designData = {
         tech: ["Figma UI Kit", "Adobe Illustrator", "Modern Marketing Typography", "Khamsat Grid Standard"],
         links: [
             { label: "طلب الخدمة على خمسات", url: "https://khamsat.com", icon: "fa-solid fa-5" },
-            { label: "تواصل عبر واتساب", url: "https://wa.me/972595896451", icon: "fa-brands fa-whatsapp" }
+            { label: "تواصل عبر واتساب", url: "https://wa.me/970594797110", icon: "fa-brands fa-whatsapp" }
         ],
         previewHtml: `
             <div style="background: linear-gradient(135deg, #1e1b4b 0%, #0f172a 60%, #0369a1 100%); padding: 2rem; color: #fff; border-radius: 8px; text-align:center;">
@@ -632,7 +632,7 @@ function handleContactSubmit(event) {
         `طريقة التواصل: ${email}\n` +
         `تفاصيل الطلب: ${message}`
     );
-    const waUrl = `https://wa.me/972595896451?text=${waText}`;
+    const waUrl = `https://wa.me/970594797110?text=${waText}`;
 
     // Prompt user to also send via WhatsApp if they prefer
     setTimeout(() => {
