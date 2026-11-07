@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="rawhBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b"/>
+      <stop offset="50%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#134e4a"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#rawhBg)" rx="12"/>
+  <circle cx="400" cy="210" r="170" fill="rgba(255,255,255,0.03)"/>
+  <circle cx="400" cy="210" r="110" fill="rgba(255,255,255,0.05)"/>
+  <text x="400" y="80" fill="#a7f3d0" font-family="'Cairo', Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="middle">🌿 تطبيق 'رَوْح' | حديقة القيم الهادئة وبوابة الجنة</text>
+  <text x="400" y="112" fill="#e2e8f0" font-family="'Cairo', Arial, sans-serif" font-size="14" text-anchor="middle">تطبيق ويب تقدمي (PWA) يعمل 100% بدون إنترنت مع محاكي نمو الحدائق بالكانفاس</text>
+  <g transform="translate(340, 140) scale(1.2)">
+    <path d="M50 85 L50 45 Q50 30 40 20 Q50 5 60 20 Q50 30 50 45 Z" fill="#78350f"/>
+    <circle cx="50" cy="20" r="28" fill="#10b981" opacity="0.9"/>
+    <circle cx="32" cy="30" r="22" fill="#059669" opacity="0.9"/>
+    <circle cx="68" cy="30" r="22" fill="#34d399" opacity="0.9"/>
+    <circle cx="50" cy="8" r="15" fill="#6ee7b7"/>
+  </g>
+  <rect x="180" y="275" width="440" height="42" rx="21" fill="rgba(0,0,0,0.35)" stroke="rgba(255,255,255,0.1)"/>
+  <text x="400" y="302" fill="#fef08a" font-family="'Cairo', Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">﴿ وَتَزَوَّدُوا فَإِنَّ خَيْرَ الزَّادِ التَّقْوَىٰ ﴾</text>
+  <rect x="130" y="340" width="160" height="40" rx="20" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.15)"/>
+  <text x="210" y="365" fill="#fff" font-family="'Cairo', Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">💧 سقاية الفضائل</text>
+  <rect x="320" y="340" width="160" height="40" rx="20" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.15)"/>
+  <text x="400" y="365" fill="#fff" font-family="'Cairo', Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">🔊 أصوات نقية مبرمجة</text>
+  <rect x="510" y="340" width="160" height="40" rx="20" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.15)"/>
+  <text x="590" y="365" fill="#fff" font-family="'Cairo', Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">📱 تثبيت PWA فوري</text>
+</svg>

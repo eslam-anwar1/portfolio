@@ -472,76 +472,233 @@ a {
     background: var(--border-subtle);
 }
 
-/* Hero Code Visual Card */
+/* Hero Profile Card Showcase */
 .hero-visual {
     position: relative;
 }
 
-.hero-code-card {
-    background: #0d1117;
-    border: 1px solid rgba(255, 255, 255, 0.12);
+.hero-profile-card {
+    background: var(--bg-card);
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+    border: var(--glass-border);
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-lg), var(--shadow-glow);
-    overflow: hidden;
+    padding: 2rem;
     position: relative;
+    transition: var(--transition);
 }
 
-.code-card-header {
-    background: #161b22;
-    padding: 0.75rem 1.2rem;
+.hero-profile-card:hover {
+    border-color: rgba(14, 165, 233, 0.4);
+    box-shadow: var(--shadow-lg), 0 0 35px rgba(14, 165, 233, 0.25);
+}
+
+.profile-card-header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    gap: 1.25rem;
+    padding-bottom: 1.5rem;
+    border-bottom: var(--glass-border);
+    margin-bottom: 1.5rem;
 }
 
-.window-dots {
-    display: flex;
-    gap: 6px;
+.avatar-wrapper {
+    position: relative;
+    width: 68px;
+    height: 68px;
+    flex-shrink: 0;
 }
 
-.dot {
-    width: 11px;
-    height: 11px;
+.avatar-circle {
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--accent-purple) 100%);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    box-shadow: 0 4px 16px var(--primary-glow);
+    position: relative;
+    z-index: 2;
 }
 
-.dot-red { background: #ff5f56; }
-.dot-yellow { background: #ffbd2e; }
-.dot-green { background: #27c93f; }
-
-.code-tab-title {
-    font-family: 'Outfit', monospace;
-    font-size: 0.82rem;
-    color: #8b949e;
-    direction: ltr;
+.avatar-glow {
+    position: absolute;
+    inset: -4px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary), var(--accent-emerald));
+    opacity: 0.6;
+    filter: blur(8px);
+    z-index: 1;
 }
 
-.badge-status {
-    background: rgba(16, 185, 129, 0.15);
-    color: #34d399;
-    font-size: 0.72rem;
-    padding: 0.2rem 0.55rem;
-    border-radius: 4px;
+.online-dot {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    width: 16px;
+    height: 16px;
+    background: var(--accent-emerald);
+    border: 3px solid var(--bg-secondary);
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.profile-main-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.verified-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.verified-title h3 {
+    font-size: 1.35rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.verified-title i {
+    font-size: 1.1rem;
+}
+
+.profile-sub {
     font-family: 'Outfit', sans-serif;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    font-weight: 600;
 }
 
-.code-card-body {
-    padding: 1.25rem 1.4rem;
-    direction: ltr;
-    text-align: left;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 0.88rem;
-    line-height: 1.6;
-    overflow-x: auto;
+.rating-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    background: rgba(245, 158, 11, 0.12);
+    border: 1px solid rgba(245, 158, 11, 0.25);
+    color: #fbbf24;
+    padding: 0.2rem 0.65rem;
+    border-radius: var(--radius-full);
+    font-size: 0.78rem;
+    font-weight: 700;
+    margin-top: 0.35rem;
+    width: fit-content;
 }
 
-.code-keyword { color: #ff7b72; }
-.code-var { color: #79c0ff; }
-.code-type { color: #ffa657; }
-.code-prop { color: #d2a8ff; }
-.code-string { color: #a5d6ff; }
-.code-comment { color: #8b949e; font-style: italic; display: block; margin-top: 0.5rem; }
+.rating-pill .stars {
+    display: flex;
+    gap: 2px;
+}
+
+.profile-quick-socials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+}
+
+.social-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.3rem 0.65rem;
+    border-radius: var(--radius-full);
+    font-size: 0.78rem;
+    font-weight: 700;
+    border: 1px solid var(--border-subtle);
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
+    transition: var(--transition);
+}
+
+.social-chip:hover {
+    transform: translateY(-2px);
+    color: #ffffff;
+}
+
+.social-chip.whatsapp:hover { background: #25d366; border-color: #25d366; }
+.social-chip.github:hover { background: #24292e; border-color: #4b5563; }
+.social-chip.khamsat:hover { background: #0ea5e9; border-color: #0ea5e9; }
+.social-chip.linkedin:hover { background: #0a66c2; border-color: #0a66c2; }
+
+.project-img-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.project-card:hover .project-img-thumb {
+    transform: scale(1.04);
+}
+
+/* Highlights List */
+.profile-highlights {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+.highlight-item {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    background: var(--bg-tertiary);
+    padding: 0.75rem 1rem;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-subtle);
+    transition: var(--transition);
+}
+
+.highlight-item:hover {
+    background: var(--bg-card-hover);
+    border-color: var(--primary);
+    transform: translateX(-4px);
+}
+
+.h-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.icon-laravel { background: rgba(244, 63, 94, 0.15); color: #f43f5e; }
+.icon-pwa { background: rgba(16, 185, 129, 0.15); color: #10b981; }
+.icon-store { background: rgba(245, 158, 11, 0.15); color: #fbbf24; }
+.icon-uiux { background: rgba(139, 92, 246, 0.15); color: #c084fc; }
+
+.h-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.h-text strong {
+    font-size: 0.9rem;
+    color: var(--text-primary);
+}
+
+.h-text small {
+    font-size: 0.76rem;
+    color: var(--text-muted);
+}
+
+.profile-card-footer {
+    padding-top: 0.5rem;
+}
 
 /* Floating Badges */
 .floating-badge {

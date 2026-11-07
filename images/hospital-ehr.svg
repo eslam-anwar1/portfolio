@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="hospBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="50%" stop-color="#203a43"/>
+      <stop offset="100%" stop-color="#2c5364"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.08)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.02)"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#hospBg)" rx="12"/>
+  <rect x="40" y="30" width="720" height="390" rx="10" fill="#0d1b2a" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <rect x="40" y="30" width="720" height="45" rx="10" fill="#1b263b"/>
+  <circle cx="65" cy="52" r="6" fill="#ff5f56"/>
+  <circle cx="85" cy="52" r="6" fill="#ffbd2e"/>
+  <circle cx="105" cy="52" r="6" fill="#27c93f"/>
+  <text x="400" y="58" fill="#e0e1dd" font-family="'Cairo', Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle">🏥 نظام مجمع ناصر الطبي | Nasser Hospital EHR System (Laravel 12)</text>
+  <rect x="580" y="95" width="160" height="305" rx="8" fill="#1b263b" opacity="0.8"/>
+  <rect x="600" y="115" width="120" height="28" rx="6" fill="#0ea5e9"/>
+  <text x="660" y="134" fill="#fff" font-family="'Cairo', Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">لوحة التحكم</text>
+  <rect x="600" y="155" width="120" height="24" rx="4" fill="rgba(255,255,255,0.05)"/>
+  <text x="660" y="172" fill="#778da9" font-family="'Cairo', Arial, sans-serif" font-size="11" text-anchor="middle">سجلات المرضى</text>
+  <rect x="600" y="190" width="120" height="24" rx="4" fill="rgba(255,255,255,0.05)"/>
+  <text x="660" y="207" fill="#778da9" font-family="'Cairo', Arial, sans-serif" font-size="11" text-anchor="middle">العيادات التخصصية</text>
+  <rect x="600" y="225" width="120" height="24" rx="4" fill="rgba(255,255,255,0.05)"/>
+  <text x="660" y="242" fill="#778da9" font-family="'Cairo', Arial, sans-serif" font-size="11" text-anchor="middle">الوصفات الطبية (Rx)</text>
+  <rect x="600" y="260" width="120" height="24" rx="4" fill="rgba(255,255,255,0.05)"/>
+  <text x="660" y="277" fill="#778da9" font-family="'Cairo', Arial, sans-serif" font-size="11" text-anchor="middle">الطوارئ والفرز</text>
+  <rect x="60" y="95" width="150" height="75" rx="8" fill="url(#cardGrad)" stroke="rgba(14,165,233,0.3)"/>
+  <text x="135" y="125" fill="#38bdf8" font-family="'Cairo', Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">24 طبيب</text>
+  <text x="135" y="148" fill="#94a3b8" font-family="'Cairo', Arial, sans-serif" font-size="11" text-anchor="middle">طواقم سريرية</text>
+  <rect x="230" y="95" width="150" height="75" rx="8" fill="url(#cardGrad)" stroke="rgba(16,185,129,0.3)"/>
+  <text x="305" y="125" fill="#34d399" font-family="'Cairo', Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">156 مريض</text>
+  <text x="305" y="148" fill="#94a3b8" font-family="'Cairo', Arial, sans-serif" font-size="11" text-anchor="middle">سجلات نشطة</text>
+  <rect x="400" y="95" width="160" height="75" rx="8" fill="url(#cardGrad)" stroke="rgba(245,158,11,0.3)"/>
+  <text x="480" y="125" fill="#fbbf24" font-family="'Cairo', Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">Laravel 12</text>
+  <text x="480" y="148" fill="#94a3b8" font-family="'Cairo', Arial, sans-serif" font-size="11" text-anchor="middle">Tailwind CSS RTL</text>
+  <rect x="60" y="185" width="500" height="215" rx="8" fill="rgba(0,0,0,0.35)" stroke="rgba(255,255,255,0.06)"/>
+  <text x="80" y="215" fill="#e2e8f0" font-family="'Cairo', Arial, sans-serif" font-size="13" font-weight="bold">متابعة الكشوفات والحالات السريرية اللحظية</text>
+  <line x1="60" y1="228" x2="560" y2="228" stroke="rgba(255,255,255,0.08)"/>
+  <text x="80" y="255" fill="#94a3b8" font-family="'Cairo', Arial, sans-serif" font-size="12">أحمد محمد - عيادة جراحة العظام</text>
+  <rect x="460" y="242" width="80" height="20" rx="10" fill="rgba(16,185,129,0.2)"/>
+  <text x="500" y="256" fill="#34d399" font-family="'Cairo', Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle">تم الكشف</text>
+  <text x="80" y="295" fill="#94a3b8" font-family="'Cairo', Arial, sans-serif" font-size="12">محمود سليم - قسم الطوارئ والإسعاف</text>
+  <rect x="460" y="282" width="80" height="20" rx="10" fill="rgba(244,63,94,0.2)"/>
+  <text x="500" y="296" fill="#fb7185" font-family="'Cairo', Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle">حالة حرجة</text>
+  <text x="80" y="335" fill="#94a3b8" font-family="'Cairo', Arial, sans-serif" font-size="12">مريم يوسف - عيادة طب الأطفال</text>
+  <rect x="460" y="322" width="80" height="20" rx="10" fill="rgba(14,165,233,0.2)"/>
+  <text x="500" y="336" fill="#38bdf8" font-family="'Cairo', Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle">استشارة</text>
+  <text x="80" y="375" fill="#94a3b8" font-family="'Cairo', Arial, sans-serif" font-size="12">سالم النجار - عيادة أمراض القلب</text>
+  <rect x="460" y="362" width="80" height="20" rx="10" fill="rgba(16,185,129,0.2)"/>
+  <text x="500" y="376" fill="#34d399" font-family="'Cairo', Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle">تم الكشف</text>
+</svg>

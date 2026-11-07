@@ -128,46 +128,88 @@
                     </div>
                 </div>
 
-                <!-- Hero Visual Showcase / Mockup -->
+                <!-- Hero Visual Showcase / Modern Profile Card -->
                 <div class="hero-visual">
-                    <div class="hero-code-card">
-                        <div class="code-card-header">
-                            <div class="window-dots">
-                                <span class="dot dot-red"></span>
-                                <span class="dot dot-yellow"></span>
-                                <span class="dot dot-green"></span>
+                    <div class="hero-profile-card">
+                        <div class="profile-card-header">
+                            <div class="avatar-wrapper">
+                                <div class="avatar-glow"></div>
+                                <div class="avatar-circle">
+                                    <i class="fa-solid fa-laptop-code"></i>
+                                </div>
+                                <span class="online-dot" title="متاحة للعمل الآن"></span>
                             </div>
-                            <span class="code-tab-title"><i class="fa-solid fa-terminal"></i> Islam_Fajam_Developer.ts</span>
-                            <span class="badge-status">Production Ready</span>
+                            <div class="profile-main-info">
+                                <div class="verified-title">
+                                    <h3>م. إسلام أنور الفجم</h3>
+                                    <i class="fa-solid fa-circle-check text-emerald" title="مهندسة معتمدة وموثوقة"></i>
+                                </div>
+                                <p class="profile-sub">Software Engineer & UI/UX Specialist</p>
+                                <div class="rating-pill">
+                                    <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                                    <span>5.0 (خمسات ومستقل)</span>
+                                </div>
+                                <div class="profile-quick-socials">
+                                    <a href="https://wa.me/972595896451" target="_blank" rel="noopener" class="social-chip whatsapp"><i class="fa-brands fa-whatsapp"></i> واتساب</a>
+                                    <a href="https://github.com/eslam-anwar1" target="_blank" rel="noopener" class="social-chip github"><i class="fa-brands fa-github"></i> GitHub</a>
+                                    <a href="https://khamsat.com" target="_blank" rel="noopener" class="social-chip khamsat"><i class="fa-solid fa-5"></i> خمسات</a>
+                                    <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-chip linkedin"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="code-card-body">
-<pre><code><span class="code-keyword">const</span> <span class="code-var">developer</span>: <span class="code-type">EngineerProfile</span> = {
-  <span class="code-prop">name</span>: <span class="code-string">"م. إسلام أنور الفجم"</span>,
-  <span class="code-prop">role</span>: <span class="code-string">"Full-Stack Software Engineer & UI/UX"</span>,
-  <span class="code-prop">core_frameworks</span>: [<span class="code-string">"Laravel 12"</span>, <span class="code-string">"Node.js"</span>, <span class="code-string">"React"</span>],
-  <span class="code-prop">featured_systems</span>: [
-    <span class="code-string">"مجمع ناصر الطبي (Hospital EHR)"</span>,
-    <span class="code-string">"منصة سماء غزة الإنسانية (NGO Portal)"</span>,
-    <span class="code-string">"تطبيق رَوْح وحديقة القيم (PWA)"</span>,
-    <span class="code-string">"متجر أم يمان التفاعلي (E-Commerce)"</span>
-  ],
-  <span class="code-prop">status</span>: <span class="code-string">"Open for high-impact projects"</span>
-};
-<span class="code-comment">// جاهز للتحويل الفوري إلى كود نظيف وتجربة مبهرة!</span></code></pre>
+
+                        <!-- Highlights List -->
+                        <div class="profile-highlights">
+                            <div class="highlight-item">
+                                <div class="h-icon icon-laravel"><i class="fa-brands fa-laravel"></i></div>
+                                <div class="h-text">
+                                    <strong>أنظمة ويب متكاملة (Full-Stack)</strong>
+                                    <small>Laravel 12 • Node.js • MySQL</small>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="h-icon icon-pwa"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                                <div class="h-text">
+                                    <strong>تطبيقات PWA أوفلاين وسريعة</strong>
+                                    <small>تطبيق "رَوْح" • Web Audio • Canvas</small>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="h-icon icon-store"><i class="fa-solid fa-bag-shopping"></i></div>
+                                <div class="h-text">
+                                    <strong>متاجر إلكترونية وسلات واتساب</strong>
+                                    <small>متجر أم يمان • 185+ صنف • AI Assistant</small>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="h-icon icon-uiux"><i class="fa-brands fa-figma"></i></div>
+                                <div class="h-text">
+                                    <strong>تصاميم Figma وأغلفة وموكاب خمسات</strong>
+                                    <small>تصاميم عصرية جذابة ترفع المبيعات</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card Quick Actions -->
+                        <div class="profile-card-footer">
+                            <a href="#web-systems" class="btn btn-primary btn-sm w-full">
+                                <i class="fa-solid fa-arrow-down"></i>
+                                <span>استعراض معرض الأعمال والشاشات</span>
+                            </a>
                         </div>
                         
                         <!-- Floating Badge Widgets -->
                         <div class="floating-badge badge-laravel">
                             <i class="fa-brands fa-laravel"></i>
-                            <span>Laravel 12 & Blade</span>
+                            <span>Laravel 12</span>
                         </div>
                         <div class="floating-badge badge-pwa">
-                            <i class="fa-solid fa-mobile-screen-button"></i>
-                            <span>PWA & Offline-First</span>
+                            <i class="fa-solid fa-bolt text-emerald"></i>
+                            <span>كود سريع ونظيف</span>
                         </div>
                         <div class="floating-badge badge-khamsat">
                             <i class="fa-solid fa-gem"></i>
-                            <span>خدمات خمسات الاحترافية</span>
+                            <span>بائع موثوق خمسات</span>
                         </div>
                     </div>
                 </div>
@@ -227,33 +269,7 @@
                     <!-- Project 1: Hospital Management System -->
                     <article class="project-card" data-category="fullstack admin" data-id="hospital">
                         <div class="card-thumb">
-                            <div class="mockup-screen hospital-bg">
-                                <div class="mockup-header-bar">
-                                    <span class="dot-sm"></span><span class="dot-sm"></span><span class="dot-sm"></span>
-                                    <span class="mockup-title">nasser-hospital.sys / portal</span>
-                                </div>
-                                <div class="mockup-content">
-                                    <div class="hospital-preview-mock">
-                                        <div class="mock-sidebar">
-                                            <div class="mock-line"></div>
-                                            <div class="mock-line active"></div>
-                                            <div class="mock-line"></div>
-                                        </div>
-                                        <div class="mock-main">
-                                            <div class="mock-stat-cards">
-                                                <div class="m-card"><i class="fa-solid fa-user-doctor"></i> 24 طبيب</div>
-                                                <div class="m-card"><i class="fa-solid fa-bed-pulse"></i> 156 مريض</div>
-                                                <div class="m-card"><i class="fa-solid fa-calendar-check"></i> مواعيد اليوم</div>
-                                            </div>
-                                            <div class="mock-table">
-                                                <div class="t-row t-head"><span>المريض</span><span>العيادة</span><span>الحالة</span></div>
-                                                <div class="t-row"><span>أحمد محمد</span><span>القلب والأوعية</span><span class="badge-m success">تم الكشف</span></div>
-                                                <div class="t-row"><span>خالد سليم</span><span>طوارئ وإسعاف</span><span class="badge-m danger">حالة حرجة</span></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <img src="images/hospital-ehr.svg" alt="نظام مجمع ناصر الطبي" class="project-img-thumb">
                             <span class="card-badge"><i class="fa-solid fa-hospital"></i> نظام استشفائي متكامل</span>
                         </div>
                         <div class="card-body">
@@ -271,7 +287,7 @@
                                 <button class="btn btn-primary btn-sm btn-preview" onclick="openProjectModal('hospital')">
                                     <i class="fa-solid fa-eye"></i> معاينة تفاصيل النظام
                                 </button>
-                                <a href="https://github.com" target="_blank" rel="noopener" class="icon-link-btn" title="المستودع على GitHub">
+                                <a href="https://github.com/eslam-anwar1/nasser-hospital-system" target="_blank" rel="noopener" class="icon-link-btn" title="المستودع على GitHub">
                                     <i class="fa-brands fa-github"></i>
                                 </a>
                                 <a href="https://render.com" target="_blank" rel="noopener" class="icon-link-btn" title="نشر Render">
@@ -284,26 +300,7 @@
                     <!-- Project 2: Samo Solutions / Sama Gaza -->
                     <article class="project-card" data-category="fullstack" data-id="samogaza">
                         <div class="card-thumb">
-                            <div class="mockup-screen samogaza-bg">
-                                <div class="mockup-header-bar">
-                                    <span class="dot-sm"></span><span class="dot-sm"></span><span class="dot-sm"></span>
-                                    <span class="mockup-title">sama-gaza-foundation.onrender.com</span>
-                                </div>
-                                <div class="mockup-content">
-                                    <div class="ngo-preview-mock">
-                                        <div class="ngo-hero">
-                                            <div class="ngo-logo-box"><i class="fa-solid fa-hand-holding-heart"></i> مؤسسة سماء غزة</div>
-                                            <div class="ngo-text-line">منصة إدارة الإغاثة والحملات الإنسانية</div>
-                                            <div class="ngo-progress-bar"><div class="ngo-fill"></div></div>
-                                        </div>
-                                        <div class="ngo-grid-m">
-                                            <div class="ngo-box"><i class="fa-solid fa-box-open"></i> طرود غذائية</div>
-                                            <div class="ngo-box"><i class="fa-solid fa-faucet-drip"></i> سقيا الماء</div>
-                                            <div class="ngo-box"><i class="fa-solid fa-kit-medical"></i> إغاثة طبية</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <img src="images/sama-gaza.svg" alt="مؤسسة سماء غزة الإنسانية" class="project-img-thumb">
                             <span class="card-badge badge-ngo"><i class="fa-solid fa-heart"></i> منصة إنسانية وإدارية</span>
                         </div>
                         <div class="card-body">
@@ -321,7 +318,7 @@
                                 <button class="btn btn-primary btn-sm btn-preview" onclick="openProjectModal('samogaza')">
                                     <i class="fa-solid fa-eye"></i> معاينة تفاصيل المنصة
                                 </button>
-                                <a href="https://github.com" target="_blank" rel="noopener" class="icon-link-btn" title="المستودع على GitHub">
+                                <a href="https://github.com/eslam-anwar1/samo-solutions" target="_blank" rel="noopener" class="icon-link-btn" title="المستودع على GitHub">
                                     <i class="fa-brands fa-github"></i>
                                 </a>
                                 <a href="https://render.com" target="_blank" rel="noopener" class="icon-link-btn" title="رابط Render المباشر">
@@ -334,37 +331,7 @@
                     <!-- Project 3: Om Yaman Spices E-Commerce -->
                     <article class="project-card" data-category="ecommerce admin" data-id="omyaman">
                         <div class="card-thumb">
-                            <div class="mockup-screen omyaman-bg">
-                                <div class="mockup-header-bar">
-                                    <span class="dot-sm"></span><span class="dot-sm"></span><span class="dot-sm"></span>
-                                    <span class="mockup-title">omyaman-spices.store / shop</span>
-                                </div>
-                                <div class="mockup-content">
-                                    <div class="spice-preview-mock">
-                                        <div class="spice-header">
-                                            <span>🌿 بهارات وتوابل أم يمان</span>
-                                            <span class="cart-pill"><i class="fa-solid fa-basket-shopping"></i> السلة (3)</span>
-                                        </div>
-                                        <div class="spice-items-preview">
-                                            <div class="sp-card">
-                                                <div class="sp-circle saffron"></div>
-                                                <span>زعتر جنيني</span>
-                                                <small>18 ₪</small>
-                                            </div>
-                                            <div class="sp-card">
-                                                <div class="sp-circle paprika"></div>
-                                                <span>بهار قدرة</span>
-                                                <small>25 ₪</small>
-                                            </div>
-                                            <div class="sp-card">
-                                                <div class="sp-circle cardamom"></div>
-                                                <span>هيل أخضر</span>
-                                                <small>45 ₪</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <img src="images/hero_banner.jpg" alt="متجر توابل وبهارات أم يمان" class="project-img-thumb">
                             <span class="card-badge badge-spices"><i class="fa-solid fa-store"></i> متجر إلكتروني + AI</span>
                         </div>
                         <div class="card-body">
@@ -382,7 +349,7 @@
                                 <button class="btn btn-primary btn-sm btn-preview" onclick="openProjectModal('omyaman')">
                                     <i class="fa-solid fa-eye"></i> معاينة تفاصيل المتجر
                                 </button>
-                                <a href="https://github.com" target="_blank" rel="noopener" class="icon-link-btn" title="المستودع">
+                                <a href="https://github.com/eslam-anwar1/om-yaman-spices" target="_blank" rel="noopener" class="icon-link-btn" title="المستودع">
                                     <i class="fa-brands fa-github"></i>
                                 </a>
                                 <a href="https://netlify.app" target="_blank" rel="noopener" class="icon-link-btn" title="معاينة Netlify">
@@ -395,28 +362,7 @@
                     <!-- Project 4: Rawh & The Peaceful Virtues Garden -->
                     <article class="project-card" data-category="pwa" data-id="rawh">
                         <div class="card-thumb">
-                            <div class="mockup-screen rawh-bg">
-                                <div class="mockup-header-bar">
-                                    <span class="dot-sm"></span><span class="dot-sm"></span><span class="dot-sm"></span>
-                                    <span class="mockup-title">rawh-virtues.app / pwa</span>
-                                </div>
-                                <div class="mockup-content">
-                                    <div class="rawh-preview-mock">
-                                        <div class="rawh-tree-visual">
-                                            <div class="svg-tree-mock">
-                                                <i class="fa-solid fa-seedling text-emerald"></i>
-                                                <i class="fa-solid fa-tree text-green"></i>
-                                                <i class="fa-solid fa-spa text-teal"></i>
-                                            </div>
-                                            <div class="rawh-verse">﴿ وَتَزَوَّدُوا فَإِنَّ خَيْرَ الزَّادِ التَّقْوَىٰ ﴾</div>
-                                            <div class="rawh-action-bar">
-                                                <span class="btn-micro"><i class="fa-solid fa-droplet"></i> سقاية الحديقة</span>
-                                                <span class="btn-micro"><i class="fa-solid fa-volume-high"></i> خرير الماء</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <img src="images/rawh-garden.svg" alt="تطبيق رَوْح وحديقة القيم الهادئة" class="project-img-thumb">
                             <span class="card-badge badge-pwa-custom"><i class="fa-solid fa-mobile-screen"></i> PWA Offline-First</span>
                         </div>
                         <div class="card-body">
@@ -434,7 +380,7 @@
                                 <button class="btn btn-primary btn-sm btn-preview" onclick="openProjectModal('rawh')">
                                     <i class="fa-solid fa-eye"></i> معاينة تفاصيل التطبيق
                                 </button>
-                                <a href="https://github.com" target="_blank" rel="noopener" class="icon-link-btn" title="المستودع">
+                                <a href="https://github.com/eslam-anwar1/portfolio" target="_blank" rel="noopener" class="icon-link-btn" title="المستودع">
                                     <i class="fa-brands fa-github"></i>
                                 </a>
                                 <a href="https://netlify.app" target="_blank" rel="noopener" class="icon-link-btn" title="معاينة مباشرة">
@@ -447,28 +393,7 @@
                     <!-- Project 5: Eyas Media Dashboard -->
                     <article class="project-card" data-category="admin fullstack" data-id="eyas">
                         <div class="card-thumb">
-                            <div class="mockup-screen eyas-bg">
-                                <div class="mockup-header-bar">
-                                    <span class="dot-sm"></span><span class="dot-sm"></span><span class="dot-sm"></span>
-                                    <span class="mockup-title">eyas-media.app / dashboard</span>
-                                </div>
-                                <div class="mockup-content">
-                                    <div class="eyas-preview-mock">
-                                        <div class="eyas-stats">
-                                            <div class="ey-box"><span>الحضور</span><strong>98%</strong></div>
-                                            <div class="ey-box"><span>المهام</span><strong>42 منجزة</strong></div>
-                                            <div class="ey-box"><span>الأقسام</span><strong>6 فِرق</strong></div>
-                                        </div>
-                                        <div class="eyas-chart-mock">
-                                            <div class="bar bar-1"></div>
-                                            <div class="bar bar-2"></div>
-                                            <div class="bar bar-3"></div>
-                                            <div class="bar bar-4"></div>
-                                            <div class="bar bar-5"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <img src="images/eyas-ems.svg" alt="لوحة تحكم إياس ميديا" class="project-img-thumb">
                             <span class="card-badge"><i class="fa-solid fa-users-gear"></i> لوحة تحكم ومتابعة EMS</span>
                         </div>
                         <div class="card-body">
@@ -486,7 +411,7 @@
                                 <button class="btn btn-primary btn-sm btn-preview" onclick="openProjectModal('eyas')">
                                     <i class="fa-solid fa-eye"></i> معاينة تفاصيل النظام
                                 </button>
-                                <a href="https://github.com" target="_blank" rel="noopener" class="icon-link-btn" title="المستودع">
+                                <a href="https://github.com/eslam-anwar1/EYAS-MEDIA" target="_blank" rel="noopener" class="icon-link-btn" title="المستودع">
                                     <i class="fa-brands fa-github"></i>
                                 </a>
                             </div>
@@ -529,7 +454,7 @@
                                 <button class="btn btn-primary btn-sm btn-preview" onclick="openProjectModal('hamada')">
                                     <i class="fa-solid fa-eye"></i> معاينة تفاصيل المنصة
                                 </button>
-                                <a href="https://github.com" target="_blank" rel="noopener" class="icon-link-btn" title="المستودع">
+                                <a href="https://github.com/eslam-anwar1/EYAS-MEDIA" target="_blank" rel="noopener" class="icon-link-btn" title="المستودع">
                                     <i class="fa-brands fa-github"></i>
                                 </a>
                             </div>
@@ -1069,7 +994,7 @@
                 </div>
                 <div class="footer-social-links">
                     <a href="https://wa.me/972595896451" target="_blank" rel="noopener" aria-label="WhatsApp" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-                    <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://github.com/eslam-anwar1" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github"></i></a>
                     <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
                     <a href="https://khamsat.com" target="_blank" rel="noopener" aria-label="Khamsat" title="Khamsat"><i class="fa-solid fa-5"></i></a>
                     <a href="mailto:islam.anwar.dev@gmail.com" aria-label="Email" title="Email"><i class="fa-solid fa-envelope"></i></a>

@@ -186,7 +186,7 @@ const projectData = {
         ],
         tech: ["Laravel 12.x", "PHP 8.2", "Blade Components", "Tailwind CSS RTL", "SQLite / MySQL", "Vite Bundler"],
         links: [
-            { label: "مستودع GitHub", url: "https://github.com", icon: "fa-brands fa-github" },
+            { label: "مستودع GitHub", url: "https://github.com/eslam-anwar1/nasser-hospital-system", icon: "fa-brands fa-github" },
             { label: "معاينة حية (Live Demo)", url: "https://nasser-hospital.sys", icon: "fa-solid fa-arrow-up-right-from-square" },
             { label: "طلب نظام مماثل", url: "#contact", icon: "fa-solid fa-bolt" }
         ],
@@ -219,7 +219,7 @@ const projectData = {
         tech: ["Node.js", "Express.js", "Render Cloud API", "JWT Security", "REST API", "Vercel"],
         links: [
             { label: "المعاينة على Render", url: "https://sama-gaza-foundation.onrender.com", icon: "fa-solid fa-globe" },
-            { label: "مستودع GitHub", url: "https://github.com", icon: "fa-brands fa-github" },
+            { label: "مستودع GitHub", url: "https://github.com/eslam-anwar1/samo-solutions", icon: "fa-brands fa-github" },
             { label: "طلب منصة مشابهة", url: "#contact", icon: "fa-solid fa-bolt" }
         ],
         previewHtml: `
@@ -254,6 +254,7 @@ const projectData = {
         tech: ["Vanilla JavaScript ES6+", "HTML5 Semantic", "Modern CSS3", "WhatsApp Webhook API", "Local Storage", "PHP Admin"],
         links: [
             { label: "معاينة المتجر", url: "https://omyaman-spices.store", icon: "fa-solid fa-bag-shopping" },
+            { label: "مستودع GitHub", url: "https://github.com/eslam-anwar1/om-yaman-spices", icon: "fa-brands fa-github" },
             { label: "تواصل عبر واتساب المتجر", url: "https://wa.me/972595896451", icon: "fa-brands fa-whatsapp" },
             { label: "طلب متجر مماثل", url: "#contact", icon: "fa-solid fa-bolt" }
         ],
@@ -285,7 +286,7 @@ const projectData = {
         tech: ["Progressive Web App (PWA)", "Pure Web Audio API", "HTML5 Canvas Animation", "Service Workers", "Google Play Store Ready"],
         links: [
             { label: "تشغيل التطبيق PWA", url: "https://rawh-virtues.app", icon: "fa-solid fa-play" },
-            { label: "مستودع GitHub", url: "https://github.com", icon: "fa-brands fa-github" },
+            { label: "مستودع GitHub", url: "https://github.com/eslam-anwar1/portfolio", icon: "fa-brands fa-github" },
             { label: "طلب تطبيق PWA مخصص", url: "#contact", icon: "fa-solid fa-bolt" }
         ],
         previewHtml: `
@@ -313,7 +314,7 @@ const projectData = {
         ],
         tech: ["HTML5 / CSS3 Semantic", "JavaScript Dashboard", "Database ERD Modeling", "Bootstrap / Tailwind"],
         links: [
-            { label: "مستودع GitHub", url: "https://github.com", icon: "fa-brands fa-github" },
+            { label: "مستودع GitHub", url: "https://github.com/eslam-anwar1/EYAS-MEDIA", icon: "fa-brands fa-github" },
             { label: "طلب لوحة إدارة", url: "#contact", icon: "fa-solid fa-bolt" }
         ],
         previewHtml: `
