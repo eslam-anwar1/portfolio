@@ -365,23 +365,23 @@ const projectData = {
 
 const designData = {
     'khamsat-web': {
-        badge: "غلاف خدمة معتمد لمنصة خمسات",
+        badge: "تصميم واجهة ونظام ويب معتمد",
         title: "غلاف خدمة برمجة وتطوير أنظمة ومواقع الويب (Laravel & Node.js)",
-        desc: "تصميم غلاف تسويقي وبصري مخصص لمنصة خمسات، تم بناؤه بمراعاة القواعد التسويقية وسيكولوجية الألوان (Psychology of Colors) لإبراز نقاط القوة الفنية فورياً وجذب المشترين لطلب الخدمة بثقة تامة.",
+        desc: "تصميم واجهة وموكاب تسويقي وبصري مخصص للأنظمة والتطبيقات، تم بناؤه بمراعاة القواعد البصرية وسيكولوجية الألوان لإبراز نقاط القوة الفنية فورياً.",
         features: [
-            "أبعاد قياسية معتمدة لمنصة خمسات (800x470 بكسل) مع وضوح عالي وتناسب عبر تطبيق الهاتف وسطح المكتب.",
+            "أبعاد قياسية عالية الدقة (Ultra-HD) مع وضوح فائق وتناسب تام عبر شاشات الهاتف وسطح المكتب.",
             "إبراز المزايا التنافسية: كود نظيف، تسليم في الموعد، وتوافق كامل مع شاشات الهواتف الذكية.",
             "ألوان داكنة راقية تعطي انطباعاً برمجياً واحترافياً باللون الكحلي الداكن والأزرق السماوي المتوهج.",
             "مؤشر تقييم خمس نجوم وبادج بائع موثوق لرفع معدل النقر والتحويل (CTR & Conversion)."
         ],
-        tech: ["Figma UI Kit", "Adobe Illustrator", "Modern Marketing Typography", "Khamsat Grid Standard"],
+        tech: ["Figma UI Kit", "Adobe Illustrator", "Modern Marketing Typography", "Responsive Grid System"],
         links: [
-            { label: "طلب الخدمة على خمسات", url: "https://khamsat.com", icon: "fa-solid fa-5" },
+            { label: "تواصل عبر واتساب المباشر", url: "https://wa.me/970594797110", icon: "fa-brands fa-whatsapp" }
             { label: "تواصل عبر واتساب", url: "https://wa.me/970594797110", icon: "fa-brands fa-whatsapp" }
         ],
         previewHtml: `
             <div style="background: linear-gradient(135deg, #1e1b4b 0%, #0f172a 60%, #0369a1 100%); padding: 2rem; color: #fff; border-radius: 8px; text-align:center;">
-                <div style="background:#0ea5e9; color:#fff; display:inline-block; padding:4px 12px; border-radius:6px; font-weight:800; margin-bottom:1rem;">خمسات | خدمة مميزة ⭐⭐⭐⭐⭐</div>
+                <div style="background:#0ea5e9; color:#fff; display:inline-block; padding:4px 12px; border-radius:6px; font-weight:800; margin-bottom:1rem;">م. إسلام الفجم | عمل هندسي متكامل ⭐⭐⭐⭐⭐</div>
                 <h3 style="margin-bottom:0.8rem;">برمجة وتطوير مواقع وأنظمة ويب احترافية بـ Laravel & Node.js</h3>
                 <p style="color:#cbd5e1; font-size:0.9rem;">كود نظيف • لوحة تحكم كاملة • دعم فني مستمر</p>
             </div>
@@ -411,17 +411,17 @@ const designData = {
         `
     },
     'khamsat-uiux': {
-        badge: "غلاف خدمة خمسات Figma",
+        badge: "تصميم واجهات وتجربة المستخدم Figma UI/UX",
         title: "غلاف خدمة تصميم واجهات وتجربة المستخدم (UI/UX) للتطبيقات والمواقع",
-        desc: "تصميم مخصص لخدمات واجهات فيجما وأدوبي إكس دي على خمسات، يعكس الإبداع والمهارة البصرية وتوزيع العناصر المتوازن مع توضيح مراحل العمل (Wireframes, Prototypes, Design Systems).",
+        desc: "تصميم احترافي لواجهات فيجما وأدوبي إكس دي، يعكس الإبداع والمهارة البصرية وتوزيع العناصر المتوازن مع توضيح مراحل العمل (Wireframes, Prototypes, Design Systems).",
         features: [
             "تركيز على أيقونة وبرمجية Figma المشهورة لضمان وصول المهتمين بالتصاميم القابلة للبرمجة.",
             "تدرج لوني بنفسجي حديث (Modern Violet) يعكس الفخامة والإبداع الرقمي.",
             "إبراز سرعة التسليم، تسليم الملفات المصدرية المفتوحة، والتعديلات المرنة."
         ],
-        tech: ["Figma Design", "Adobe XD", "Color Theory", "Khamsat Banner Standards"],
+        tech: ["Figma Design", "Adobe XD", "Color Theory", "UI/UX Guidelines"],
         links: [
-            { label: "طلب الخدمة على خمسات", url: "https://khamsat.com", icon: "fa-solid fa-5" }
+            { label: "تواصل عبر واتساب المباشر", url: "https://wa.me/970594797110", icon: "fa-brands fa-whatsapp" }
         ],
         previewHtml: `
             <div style="background: linear-gradient(135deg, #3b0764 0%, #1e1b4b 60%, #4338ca 100%); padding: 2rem; color: #fff; border-radius: 8px; text-align:center;">
@@ -453,17 +453,17 @@ const designData = {
         `
     },
     'khamsat-ecom': {
-        badge: "غلاف خدمة خمسات للمتاجر",
+        badge: "تصميم واجهات المتاجر والطلبات السريعة",
         title: "غلاف خدمة إنشاء المتاجر الإلكترونية السريعة وربط الواتساب",
         desc: "غلاف خدمة يركز على الحلول السريعة لأصحاب الأعمال المنزلية والتجار المحليين الذين يرغبون في متجر خفيف وسريع يتلقى الطلبات عبر الواتساب بدون تعقيدات الدفع الإلكتروني المرهقة.",
         features: [
             "تسليط الضوء على إمكانية إرسال الفاتورة والطلب بضغطة زر لرقم واتساب التاجر.",
             "إبراز سرعة التحميل وانعدام الرسوم الشهرية.",
-            "تصميم يجذب المشترين في منصات العمل الحر."
+            "تصميم يجذب العملاء ويرفع من معدل التحويل والمبيعات."
         ],
-        tech: ["Khamsat Standards", "E-Commerce Strategy", "Digital Graphics"],
+        tech: ["E-Commerce Architecture", "Conversion Optimization", "Digital Graphics"],
         links: [
-            { label: "طلب الخدمة على خمسات", url: "https://khamsat.com", icon: "fa-solid fa-5" }
+            { label: "تواصل عبر واتساب المباشر", url: "https://wa.me/970594797110", icon: "fa-brands fa-whatsapp" }
         ],
         previewHtml: `
             <div style="background: linear-gradient(135deg, #451a03 0%, #1c1917 60%, #b45309 100%); padding: 2rem; color: #fff; border-radius: 8px; text-align:center;">
